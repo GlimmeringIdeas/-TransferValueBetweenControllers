@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD884FE31CA39ED1000E9BA7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD884FE21CA39ED1000E9BA7 /* main.m */; };
+		BD884FE61CA39ED1000E9BA7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD884FE51CA39ED1000E9BA7 /* AppDelegate.m */; };
+		BD884FE91CA39ED1000E9BA7 /* EmoMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD884FE81CA39ED1000E9BA7 /* EmoMainViewController.m */; };
+		BD884FEC1CA39ED1000E9BA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD884FEA1CA39ED1000E9BA7 /* Main.storyboard */; };
+		BD884FEE1CA39ED1000E9BA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD884FED1CA39ED1000E9BA7 /* Assets.xcassets */; };
+		BD884FF11CA39ED1000E9BA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD884FEF1CA39ED1000E9BA7 /* LaunchScreen.storyboard */; };
+		BD884FFA1CA3ABBB000E9BA7 /* EmoDelegateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD884FF91CA3ABBB000E9BA7 /* EmoDelegateViewController.m */; };
+		BD884FFD1CA3ABD4000E9BA7 /* EmoBlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD884FFC1CA3ABD4000E9BA7 /* EmoBlockViewController.m */; };
+		BD8850001CA3ABE1000E9BA7 /* EmoAttributesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD884FFF1CA3ABE1000E9BA7 /* EmoAttributesViewController.m */; };
+		BD8850031CA3ABEF000E9BA7 /* EmoNotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD8850021CA3ABEF000E9BA7 /* EmoNotificationViewController.m */; };
+		BD8850081CA3C752000E9BA7 /* EmoInputAttributesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD8850071CA3C752000E9BA7 /* EmoInputAttributesViewController.m */; };
+		BD88500F1CA3D0D7000E9BA7 /* EmoInputBlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD88500A1CA3D0D7000E9BA7 /* EmoInputBlockViewController.m */; };
+		BD8850101CA3D0D7000E9BA7 /* EmoInputDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD88500C1CA3D0D7000E9BA7 /* EmoInputDataViewController.m */; };
+		BD8850111CA3D0D7000E9BA7 /* EmoInputNotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD88500E1CA3D0D7000E9BA7 /* EmoInputNotificationViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BD884FDE1CA39ED1000E9BA7 /* 控制器间的传值.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "控制器间的传值.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD884FE21CA39ED1000E9BA7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD884FE41CA39ED1000E9BA7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BD884FE51CA39ED1000E9BA7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BD884FE71CA39ED1000E9BA7 /* EmoMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmoMainViewController.h; sourceTree = "<group>"; };
+		BD884FE81CA39ED1000E9BA7 /* EmoMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmoMainViewController.m; sourceTree = "<group>"; };
+		BD884FEB1CA39ED1000E9BA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD884FED1CA39ED1000E9BA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD884FF01CA39ED1000E9BA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD884FF21CA39ED1000E9BA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD884FF81CA3ABBB000E9BA7 /* EmoDelegateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmoDelegateViewController.h; sourceTree = "<group>"; };
+		BD884FF91CA3ABBB000E9BA7 /* EmoDelegateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmoDelegateViewController.m; sourceTree = "<group>"; };
+		BD884FFB1CA3ABD4000E9BA7 /* EmoBlockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmoBlockViewController.h; sourceTree = "<group>"; };
+		BD884FFC1CA3ABD4000E9BA7 /* EmoBlockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmoBlockViewController.m; sourceTree = "<group>"; };
+		BD884FFE1CA3ABE1000E9BA7 /* EmoAttributesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmoAttributesViewController.h; sourceTree = "<group>"; };
+		BD884FFF1CA3ABE1000E9BA7 /* EmoAttributesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmoAttributesViewController.m; sourceTree = "<group>"; };
+		BD8850011CA3ABEF000E9BA7 /* EmoNotificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmoNotificationViewController.h; sourceTree = "<group>"; };
+		BD8850021CA3ABEF000E9BA7 /* EmoNotificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmoNotificationViewController.m; sourceTree = "<group>"; };
+		BD8850061CA3C752000E9BA7 /* EmoInputAttributesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmoInputAttributesViewController.h; sourceTree = "<group>"; };
+		BD8850071CA3C752000E9BA7 /* EmoInputAttributesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmoInputAttributesViewController.m; sourceTree = "<group>"; };
+		BD8850091CA3D0D7000E9BA7 /* EmoInputBlockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmoInputBlockViewController.h; sourceTree = "<group>"; };
+		BD88500A1CA3D0D7000E9BA7 /* EmoInputBlockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmoInputBlockViewController.m; sourceTree = "<group>"; };
+		BD88500B1CA3D0D7000E9BA7 /* EmoInputDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmoInputDataViewController.h; sourceTree = "<group>"; };
+		BD88500C1CA3D0D7000E9BA7 /* EmoInputDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmoInputDataViewController.m; sourceTree = "<group>"; };
+		BD88500D1CA3D0D7000E9BA7 /* EmoInputNotificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmoInputNotificationViewController.h; sourceTree = "<group>"; };
+		BD88500E1CA3D0D7000E9BA7 /* EmoInputNotificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmoInputNotificationViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD884FDB1CA39ED1000E9BA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD884FD51CA39ED1000E9BA7 = {
+			isa = PBXGroup;
+			children = (
+				BD884FE01CA39ED1000E9BA7 /* 控制器间的传值 */,
+				BD884FDF1CA39ED1000E9BA7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD884FDF1CA39ED1000E9BA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD884FDE1CA39ED1000E9BA7 /* 控制器间的传值.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD884FE01CA39ED1000E9BA7 /* 控制器间的传值 */ = {
+			isa = PBXGroup;
+			children = (
+				BD884FE41CA39ED1000E9BA7 /* AppDelegate.h */,
+				BD884FE51CA39ED1000E9BA7 /* AppDelegate.m */,
+				BD884FE71CA39ED1000E9BA7 /* EmoMainViewController.h */,
+				BD884FE81CA39ED1000E9BA7 /* EmoMainViewController.m */,
+				BD8850151CA3D10D000E9BA7 /* 代理传值 */,
+				BD8850141CA3D102000E9BA7 /* 代码块传值 */,
+				BD8850131CA3D0F6000E9BA7 /* 属性传值 */,
+				BD8850121CA3D0E6000E9BA7 /* 通知传值 */,
+				BD884FEA1CA39ED1000E9BA7 /* Main.storyboard */,
+				BD884FED1CA39ED1000E9BA7 /* Assets.xcassets */,
+				BD884FEF1CA39ED1000E9BA7 /* LaunchScreen.storyboard */,
+				BD884FF21CA39ED1000E9BA7 /* Info.plist */,
+				BD884FE11CA39ED1000E9BA7 /* Supporting Files */,
+			);
+			path = "控制器间的传值";
+			sourceTree = "<group>";
+		};
+		BD884FE11CA39ED1000E9BA7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD884FE21CA39ED1000E9BA7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BD8850121CA3D0E6000E9BA7 /* 通知传值 */ = {
+			isa = PBXGroup;
+			children = (
+				BD8850011CA3ABEF000E9BA7 /* EmoNotificationViewController.h */,
+				BD8850021CA3ABEF000E9BA7 /* EmoNotificationViewController.m */,
+				BD88500D1CA3D0D7000E9BA7 /* EmoInputNotificationViewController.h */,
+				BD88500E1CA3D0D7000E9BA7 /* EmoInputNotificationViewController.m */,
+			);
+			name = "通知传值";
+			sourceTree = "<group>";
+		};
+		BD8850131CA3D0F6000E9BA7 /* 属性传值 */ = {
+			isa = PBXGroup;
+			children = (
+				BD884FFE1CA3ABE1000E9BA7 /* EmoAttributesViewController.h */,
+				BD884FFF1CA3ABE1000E9BA7 /* EmoAttributesViewController.m */,
+				BD8850061CA3C752000E9BA7 /* EmoInputAttributesViewController.h */,
+				BD8850071CA3C752000E9BA7 /* EmoInputAttributesViewController.m */,
+			);
+			name = "属性传值";
+			sourceTree = "<group>";
+		};
+		BD8850141CA3D102000E9BA7 /* 代码块传值 */ = {
+			isa = PBXGroup;
+			children = (
+				BD884FFB1CA3ABD4000E9BA7 /* EmoBlockViewController.h */,
+				BD884FFC1CA3ABD4000E9BA7 /* EmoBlockViewController.m */,
+				BD8850091CA3D0D7000E9BA7 /* EmoInputBlockViewController.h */,
+				BD88500A1CA3D0D7000E9BA7 /* EmoInputBlockViewController.m */,
+			);
+			name = "代码块传值";
+			sourceTree = "<group>";
+		};
+		BD8850151CA3D10D000E9BA7 /* 代理传值 */ = {
+			isa = PBXGroup;
+			children = (
+				BD88500B1CA3D0D7000E9BA7 /* EmoInputDataViewController.h */,
+				BD88500C1CA3D0D7000E9BA7 /* EmoInputDataViewController.m */,
+				BD884FF81CA3ABBB000E9BA7 /* EmoDelegateViewController.h */,
+				BD884FF91CA3ABBB000E9BA7 /* EmoDelegateViewController.m */,
+			);
+			name = "代理传值";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD884FDD1CA39ED1000E9BA7 /* 控制器间的传值 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD884FF51CA39ED1000E9BA7 /* Build configuration list for PBXNativeTarget "控制器间的传值" */;
+			buildPhases = (
+				BD884FDA1CA39ED1000E9BA7 /* Sources */,
+				BD884FDB1CA39ED1000E9BA7 /* Frameworks */,
+				BD884FDC1CA39ED1000E9BA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "控制器间的传值";
+			productName = "控制器间的传值";
+			productReference = BD884FDE1CA39ED1000E9BA7 /* 控制器间的传值.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD884FD61CA39ED1000E9BA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Emo;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Emo Lin";
+				TargetAttributes = {
+					BD884FDD1CA39ED1000E9BA7 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = SKK8KZFZ5K;
+					};
+				};
+			};
+			buildConfigurationList = BD884FD91CA39ED1000E9BA7 /* Build configuration list for PBXProject "控制器间的传值" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD884FD51CA39ED1000E9BA7;
+			productRefGroup = BD884FDF1CA39ED1000E9BA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD884FDD1CA39ED1000E9BA7 /* 控制器间的传值 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD884FDC1CA39ED1000E9BA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD884FF11CA39ED1000E9BA7 /* LaunchScreen.storyboard in Resources */,
+				BD884FEE1CA39ED1000E9BA7 /* Assets.xcassets in Resources */,
+				BD884FEC1CA39ED1000E9BA7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD884FDA1CA39ED1000E9BA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD8850101CA3D0D7000E9BA7 /* EmoInputDataViewController.m in Sources */,
+				BD884FE91CA39ED1000E9BA7 /* EmoMainViewController.m in Sources */,
+				BD88500F1CA3D0D7000E9BA7 /* EmoInputBlockViewController.m in Sources */,
+				BD8850001CA3ABE1000E9BA7 /* EmoAttributesViewController.m in Sources */,
+				BD884FFA1CA3ABBB000E9BA7 /* EmoDelegateViewController.m in Sources */,
+				BD8850081CA3C752000E9BA7 /* EmoInputAttributesViewController.m in Sources */,
+				BD884FE61CA39ED1000E9BA7 /* AppDelegate.m in Sources */,
+				BD884FE31CA39ED1000E9BA7 /* main.m in Sources */,
+				BD8850111CA3D0D7000E9BA7 /* EmoInputNotificationViewController.m in Sources */,
+				BD8850031CA3ABEF000E9BA7 /* EmoNotificationViewController.m in Sources */,
+				BD884FFD1CA3ABD4000E9BA7 /* EmoBlockViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BD884FEA1CA39ED1000E9BA7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD884FEB1CA39ED1000E9BA7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD884FEF1CA39ED1000E9BA7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD884FF01CA39ED1000E9BA7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD884FF31CA39ED1000E9BA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BD884FF41CA39ED1000E9BA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD884FF61CA39ED1000E9BA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "控制器间的传值/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Emo.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BD884FF71CA39ED1000E9BA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "控制器间的传值/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Emo.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD884FD91CA39ED1000E9BA7 /* Build configuration list for PBXProject "控制器间的传值" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD884FF31CA39ED1000E9BA7 /* Debug */,
+				BD884FF41CA39ED1000E9BA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD884FF51CA39ED1000E9BA7 /* Build configuration list for PBXNativeTarget "控制器间的传值" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD884FF61CA39ED1000E9BA7 /* Debug */,
+				BD884FF71CA39ED1000E9BA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD884FD61CA39ED1000E9BA7 /* Project object */;
+}
